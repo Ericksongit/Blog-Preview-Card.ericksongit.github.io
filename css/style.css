@@ -17,6 +17,7 @@
 }
 
 body {
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,7 +65,10 @@ h1 {
     font-size: 20px;
     font-weight: 800;
 }
-
+h1:hover {
+    color: var(--yellow);
+    cursor: pointer;
+}
 p {
     color: var(--grey);
     font-size: 14px;
@@ -79,11 +83,10 @@ p {
     gap: 10px;
 }
 
-.container div img {
-
+.user img {
     width: 30px;
 }
 
-.container div h3 {
+.user h3 {
     font-size: 14px;
 }
